@@ -11,10 +11,10 @@ import {
 
 const lang = defaultLocale;
 const t = content[lang];
-const canonical = new URL("/", Astro.site).toString();
+const canonical = new URL("", Astro.site).toString();
 const alternates = locales.map((locale) => ({
 	lang: locale,
-	href: new URL(locale === defaultLocale ? "/" : `/${locale}/`, Astro.site).toString(),
+	href: new URL(locale === defaultLocale ? "" : `${locale}/`, Astro.site).toString(),
 }));
 ---
 

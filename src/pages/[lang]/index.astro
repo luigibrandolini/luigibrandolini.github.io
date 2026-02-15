@@ -21,10 +21,10 @@ export function getStaticPaths() {
 const langParam = Astro.params.lang as Locale | undefined;
 const lang = locales.includes(langParam as Locale) ? (langParam as Locale) : defaultLocale;
 const t = content[lang];
-const canonical = new URL(`/${lang}/`, Astro.site).toString();
+const canonical = new URL(lang === defaultLocale ? "" : `${lang}/`, Astro.site).toString();
 const alternates = locales.map((locale) => ({
   lang: locale,
-  href: new URL(locale === defaultLocale ? "/" : `/${locale}/`, Astro.site).toString(),
+  href: new URL(locale === defaultLocale ? "" : `${locale}/`, Astro.site).toString(),
 }));
 ---
 
