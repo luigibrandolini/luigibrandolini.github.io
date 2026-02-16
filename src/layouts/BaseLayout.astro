@@ -12,6 +12,10 @@ const {
 const rawBaseUrl = import.meta.env.BASE_URL;
 const baseUrl = rawBaseUrl.endsWith("/") ? rawBaseUrl : `${rawBaseUrl}/`;
 const faviconIco = `${baseUrl}favicon.ico`;
+const favicon16 = `${baseUrl}favicon-16x16.png`;
+const favicon32 = `${baseUrl}favicon-32x32.png`;
+const appleTouchIcon = `${baseUrl}apple-touch-icon.png`;
+const webManifest = `${baseUrl}site.webmanifest`;
 const socialImage = new URL(`${baseUrl}hero.png`, Astro.site).toString();
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 const bingSiteVerification = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
@@ -77,6 +81,10 @@ const websiteJsonLd = {
     ))}
     <link rel="alternate" hreflang="x-default" href={xDefaultHref} />
     <link rel="icon" type="image/x-icon" href={faviconIco} />
+    <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
+    <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
+    <link rel="apple-touch-icon" href={appleTouchIcon} />
+    <link rel="manifest" href={webManifest} />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
