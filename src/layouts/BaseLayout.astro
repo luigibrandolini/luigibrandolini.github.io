@@ -14,6 +14,8 @@ const baseUrl = rawBaseUrl.endsWith("/") ? rawBaseUrl : `${rawBaseUrl}/`;
 const faviconIco = `${baseUrl}favicon.ico`;
 const socialImage = new URL(`${baseUrl}hero.png`, Astro.site).toString();
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
+const bingSiteVerification = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
+const yandexSiteVerification = import.meta.env.PUBLIC_YANDEX_SITE_VERIFICATION;
 const xDefaultHref =
   alternates.find((item: { lang: string; href: string }) => item.lang === "it")?.href ?? canonical;
 const localeMap: Record<string, string> = {
@@ -61,6 +63,12 @@ const websiteJsonLd = {
     <meta name="googlebot" content="index,follow" />
     {googleSiteVerification && (
       <meta name="google-site-verification" content={googleSiteVerification} />
+    )}
+    {bingSiteVerification && (
+      <meta name="msvalidate.01" content={bingSiteVerification} />
+    )}
+    {yandexSiteVerification && (
+      <meta name="yandex-verification" content={yandexSiteVerification} />
     )}
     <title>{title}</title>
     <link rel="canonical" href={canonical} />
