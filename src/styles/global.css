@@ -456,7 +456,7 @@ h1 {
 .project-icon {
   width: 40px;
   height: 40px;
-  color: var(--accent-dark);
+  color: #4e3f36;
   flex-shrink: 0;
 }
 
@@ -607,7 +607,7 @@ h1 {
 .project-icon {
   width: 40px;
   height: 40px;
-  color: var(--accent-dark);
+  color: #4e3f36;
   flex-shrink: 0;
 }
 

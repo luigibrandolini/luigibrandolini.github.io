@@ -7,7 +7,7 @@ export const site = {
 export const seo = {
   title: "Luigi Brandolini | Software Architect & Technical Project Manager",
   description:
-    "Davanti a un IBM PS/1 80286, nei primi anni '90, nasce la mia passione per la tecnologia. Oggi, progetto e aiuto a scalare sistemi software complessi, integrando strategia, architettura e delivery.",
+    "Nei primi anni '90, davanti ad un IBM PS/1 80286, nasceva la mia passione per la tecnologia. Oggi, progetto e aiuto a scalare sistemi software complessi, integrando strategia, architettura e delivery.",
 };
 
 export const locales = ["it", "en", "es", "fr"] as const;
@@ -55,7 +55,7 @@ export const content: Record<Locale, {
   it: {
     title: "Software Architect & Technical Project Manager",
     intro:
-      "Davanti a un IBM PS/1 80286, nei primi anni '90, nasce la mia passione per la tecnologia. Oggi, progetto e aiuto a scalare sistemi software complessi, integrando strategia, architettura e delivery.",
+      "Nei primi anni '90, davanti ad un IBM PS/1 80286, nasceva la mia passione per la tecnologia. Oggi, progetto e aiuto a scalare sistemi software complessi, integrando strategia, architettura e delivery.",
     bio:
       "Con oltre 16 anni di esperienza in software enterprise, formazione, mentoring, leadership tecnica e innovazione guidata da AI, opero all'intersezione tra eccellenza ingegneristica, governance di progetto e crescita dei team. Sono disponibile per incarichi fractional e leadership tecnico-strategica.",
     cta: "Parliamo del tuo prossimo progetto",
@@ -77,7 +77,7 @@ export const content: Record<Locale, {
     aboutOrigins:
       "Nato ad Atri (Abruzzo) nel 1983, ho sviluppato, sin dall’infanzia, un forte interesse per l’informatica e i computer. Nonostante il mio percorso liceale fosse ad indirizzo umanistico, ho intrapreso autonomamente lo studio della programmazione con QBasic e Turbo Pascal 5.5, dedicandomi nel tempo libero alla sperimentazione su progetti personali.",
     aboutBio:
-      "Dopo la laurea magistrale in Informatica e l'abilitazione come ingegnere nel 2009, oggi vivo a Roma dove lavoro come ingegnere informatico e formatore tecnico-scientifico. Nel 2014 ho fondato Ermes Engineering (oggi <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>), uno studio che offre consulenza strategica IT, architetture software e governance tecnologica. Ho collaborato con Reply, Dedagroup, Honda S.p.A., Università degli Studi dell'Aquila e IMT Atlantique (Nantes), contribuendo anche a pubblicazioni scientifiche internazionali. L'articolo <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> è il mio ultimo lavoro di ricerca accademica.",
+      "Dopo la laurea magistrale in Informatica e l'abilitazione come ingegnere nel 2009, oggi vivo a Roma dove lavoro come ingegnere informatico e formatore tecnico-scientifico. Nel 2014 ho fondato Ermes Engineering, oggi <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>, uno studio che offre consulenza strategica IT, architetture software e governance tecnologica. Ho collaborato con Reply, Dedagroup, Honda S.p.A., Università degli Studi dell'Aquila e IMT Atlantique (Nantes), contribuendo anche a pubblicazioni scientifiche internazionali. L'articolo <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> è il mio ultimo lavoro di ricerca accademica.",
     creativeTitle: "Oltre il codice",
     aboutCreative:
       "Accanto alla carriera tecnica, coltivo da sempre la passione per il pianoforte, il teatro e la scrittura. Ho interpretato opere di Dürrenmatt e Woody Allen, e nel 2024 ho pubblicato il mio primo romanzo, <a href='https://amzn.eu/d/02OQ3CzI' target='_blank' rel='noopener noreferrer' class='bio-link'>Ponte numero IX</a>, una storia che esplora temi di amore, viaggi e seconde opportunità.",
@@ -87,7 +87,7 @@ export const content: Record<Locale, {
   en: {
     title: "Software Architect & Technical Project Manager",
     intro:
-      "In front of an IBM PS/1 80286 in the early 1990s, my passion for technology was born. Today, I design and help scale complex software systems, integrating strategy, architecture, and delivery.",
+      "In the early 1990s, in front of an IBM PS/1 80286, my passion for technology was taking shape. Today, I design and help scale complex software systems, integrating strategy, architecture, and delivery.",
     bio:
       "With 16+ years across enterprise software, technical leadership, and AI driven innovation, I operate at the intersection of engineering excellence, project governance, and team development. Available for fractional engagements and strategic technical leadership.",
     cta: "Let us talk about your next project",
@@ -109,7 +109,7 @@ export const content: Record<Locale, {
     aboutOrigins:
       "Born in Atri (Abruzzo) in 1983, I have been passionate about technology since I was a child: my first console was an ATARI 2600. At 14, in the 90s, I started programming with QBasic and Turbo Pascal 5.5, carving out time from my studies despite a demanding humanities education.",
     aboutBio:
-      "After earning my master's degree in Computer Science and qualifying as an engineer in 2009, I now live in Rome, where I work as a software engineer and technical-scientific trainer. In 2014 I founded Ermes Engineering (now <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>), a studio that offers strategic IT consulting, software architecture, and technology governance. I have collaborated with Reply, Dedagroup, Honda S.p.A., University of L'Aquila, and IMT Atlantique (Nantes), also contributing to international scientific publications. The article <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> is my latest academic research work.",
+      "After earning my master's degree in Computer Science and qualifying as an engineer in 2009, I now live in Rome, where I work as a software engineer and technical-scientific trainer. In 2014 I founded Ermes Engineering, now <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>, a studio that offers strategic IT consulting, software architecture, and technology governance. I have collaborated with Reply, Dedagroup, Honda S.p.A., University of L'Aquila, and IMT Atlantique (Nantes), also contributing to international scientific publications. The article <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> is my latest academic research work.",
     creativeTitle: "Beyond code",
     aboutCreative:
       "Alongside his technical career, Luigi has always cultivated a passion for piano, theater, and writing. He has performed in plays by Dürrenmatt and Woody Allen, and in 2024 published his first novel, <a href='https://amzn.eu/d/02OQ3CzI' target='_blank' rel='noopener noreferrer' class='bio-link'>Ponte numero IX</a> (Bridge Number Nine), a story exploring themes of love, travel, and second chances. The international edition <a href='https://a.co/d/0g3L6pHd' target='_blank' rel='noopener noreferrer' class='bio-link'>Deck Nine</a> is also available.",
@@ -118,7 +118,7 @@ export const content: Record<Locale, {
   es: {
     title: "Software Architect y Technical Project Manager",
     intro:
-      "Frente a un IBM PS/1 80286, a principios de los años 90, nació mi pasión por la tecnología. Hoy diseño y ayudo a escalar sistemas de software complejos, integrando estrategia, arquitectura y delivery.",
+      "A principios de los años 90, frente a un IBM PS/1 80286, iba naciendo mi pasión por la tecnología. Hoy diseño y ayudo a escalar sistemas de software complejos, integrando estrategia, arquitectura y delivery.",
     bio:
       "Con mas de 16 anos de experiencia en software enterprise, liderazgo tecnico e innovacion guiada por AI, opero en la interseccion de excelencia de ingenieria, gobernanza de programas y desarrollo de equipos. Disponible para colaboraciones fractional y liderazgo tecnico estrategico.",
     cta: "Hablemos de tu proximo proyecto",
@@ -140,7 +140,7 @@ export const content: Record<Locale, {
     aboutOrigins:
       "Nacido en Atri (Abruzzo) en 1983, siempre he sido un entusiasta de la tecnología: mi primera consola fue una ATARI 2600. A los 14 años, en los años 90, me acerqué a la programación con QBasic y Turbo Pascal 5.5, encontrando tiempo a pesar de una formación humanística exigente.",
     aboutBio:
-      "Tras obtener mi maestria en Informatica y habilitarme como ingeniero en 2009, hoy vivo en Roma, donde trabajo como ingeniero de software y formador tecnico-cientifico. En 2014 funde Ermes Engineering (hoy <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>), un estudio que ofrece consultoria estrategica de TI, arquitectura de software y gobernanza tecnologica. He colaborado con Reply, Dedagroup, Honda S.p.A., Universidad de L'Aquila e IMT Atlantique (Nantes), contribuyendo tambien a publicaciones cientificas internacionales. El articulo <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> es mi trabajo mas reciente de investigacion academica.",
+      "Tras obtener mi maestria en Informatica y habilitarme como ingeniero en 2009, hoy vivo en Roma, donde trabajo como ingeniero de software y formador tecnico-cientifico. En 2014 funde Ermes Engineering, hoy <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>, un estudio que ofrece consultoria estrategica de TI, arquitectura de software y gobernanza tecnologica. He colaborado con Reply, Dedagroup, Honda S.p.A., Universidad de L'Aquila e IMT Atlantique (Nantes), contribuyendo tambien a publicaciones cientificas internacionales. El articulo <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> es mi trabajo mas reciente de investigacion academica.",
     creativeTitle: "Mas alla del codigo",
     aboutCreative:
       "Junto a su carrera tecnica, Luigi siempre ha cultivado la pasion por el piano, el teatro y la escritura. Ha actuado en obras de Dürrenmatt y Woody Allen, y en 2024 publico su primera novela, <a href='https://amzn.eu/d/02OQ3CzI' target='_blank' rel='noopener noreferrer' class='bio-link'>Ponte numero IX</a> (Puente Numero Nueve), una historia que explora temas de amor, viajes y segundas oportunidades. La edición internacional <a href='https://a.co/d/0g3L6pHd' target='_blank' rel='noopener noreferrer' class='bio-link'>Deck Nine</a> también está disponible.",
@@ -150,7 +150,7 @@ export const content: Record<Locale, {
   fr: {
     title: "Software Architect et Technical Project Manager",
     intro:
-      "Devant un IBM PS/1 80286, au début des années 90, est née ma passion pour la technologie. Aujourd'hui, je conçois et j'aide à faire évoluer des systèmes logiciels complexes, en intégrant stratégie, architecture et delivery.",
+      "Au début des années 90, devant un IBM PS/1 80286, ma passion pour la technologie prenait forme. Aujourd'hui, je conçois et j'aide à faire évoluer des systèmes logiciels complexes, en intégrant stratégie, architecture et delivery.",
     bio:
       "Avec plus de 16 ans dans le logiciel enterprise, le leadership technique et l innovation guidee par AI, j opere a l intersection de l excellence technique, de la gouvernance des programmes et du developpement des equipes. Disponible pour des engagements fractional et un leadership technique strategique.",
     cta: "Parlons de votre prochain projet",
@@ -172,7 +172,7 @@ export const content: Record<Locale, {
     aboutOrigins:
       "Né à Atri (Abruzzes) en 1983, je suis passionné de technologie depuis l'enfance : ma première console fut une ATARI 2600. À 14 ans, dans les années 90, j'ai découvert la programmation avec QBasic et Turbo Pascal 5.5, trouvant du temps malgré des études littéraires exigeantes.",
     aboutBio:
-      "Apres avoir obtenu mon master en informatique et la qualification d'ingenieur en 2009, je vis aujourd'hui a Rome, ou je travaille comme ingenieur logiciel et formateur technico-scientifique. En 2014, j'ai fonde Ermes Engineering (aujourd'hui <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>), un studio qui propose du conseil strategique IT, de l'architecture logicielle et de la gouvernance technologique. J'ai collabore avec Reply, Dedagroup, Honda S.p.A., l'Universite de L'Aquila et IMT Atlantique (Nantes), en contribuant egalement a des publications scientifiques internationales. L'article <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> est mon travail de recherche academique le plus recent.",
+      "Apres avoir obtenu mon master en informatique et la qualification d'ingenieur en 2009, je vis aujourd'hui a Rome, ou je travaille comme ingenieur logiciel et formateur technico-scientifique. En 2014, j'ai fonde Ermes Engineering, aujourd'hui <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>, un studio qui propose du conseil strategique IT, de l'architecture logicielle et de la gouvernance technologique. J'ai collabore avec Reply, Dedagroup, Honda S.p.A., l'Universite de L'Aquila et IMT Atlantique (Nantes), en contribuant egalement a des publications scientifiques internationales. L'article <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> est mon travail de recherche academique le plus recent.",
     creativeTitle: "Au dela du code",
     aboutCreative:
       "Parallelement a sa carriere technique, Luigi a toujours cultive une passion pour le piano, le theatre et l ecriture. Il a joue dans des pieces de Dürrenmatt et Woody Allen, et en 2024 a publie son premier roman, <a href='https://amzn.eu/d/02OQ3CzI' target='_blank' rel='noopener noreferrer' class='bio-link'>Ponte numero IX</a> (Pont Numero Neuf), une histoire explorant des themes d amour, de voyage et de secondes chances. L'édition internationale <a href='https://a.co/d/0g3L6pHd' target='_blank' rel='noopener noreferrer' class='bio-link'>Deck Nine</a> est également disponible.",
