@@ -1,11 +1,11 @@
 export const site = {
   name: "Luigi Brandolini",
   url: "https://luigibrandolini.github.io/",
-  tagline: "Engineering Leader, Technical Project Manager, and creative technologist",
+  tagline: "Software Architect, Technical Project Manager, and creative technologist",
 };
 
 export const seo = {
-  title: "Luigi Brandolini | Engineering Leader & Technical Project Manager",
+  title: "Luigi Brandolini | Software Architect & Technical Project Manager",
   description:
     "Aiuto le organizzazioni a progettare, costruire e scalare sistemi software complessi, allineando strategia, architettura e delivery.",
 };
@@ -53,7 +53,7 @@ export const content: Record<Locale, {
   featuredProjectTagOpenSource: string;
 }> = {
   it: {
-    title: "Engineering Leader & Technical Project Manager",
+    title: "Software Architect & Technical Project Manager",
     intro:
       "Aiuto le organizzazioni a progettare, costruire e scalare sistemi software complessi, allineando strategia, architettura e delivery.",
     bio:
@@ -85,7 +85,7 @@ export const content: Record<Locale, {
     readyToCollaborate: "Pronto a collaborare? Sono disponibile per advisory strategica, leadership tecnica e partnership creative.",
   },
   en: {
-    title: "Engineering Leader & Technical Project Manager",
+    title: "Software Architect & Technical Project Manager",
     intro:
       "I help organizations design, build, and scale complex software systems by aligning strategy, architecture, and delivery.",
     bio:
@@ -115,8 +115,8 @@ export const content: Record<Locale, {
       "Alongside his technical career, Luigi has always cultivated a passion for piano, theater, and writing. He has performed in plays by Dürrenmatt and Woody Allen, and in 2024 published his first novel, <a href='https://amzn.eu/d/02OQ3CzI' target='_blank' rel='noopener noreferrer' class='bio-link'>Ponte numero IX</a> (Bridge Number Nine), a story exploring themes of love, travel, and second chances. The international edition <a href='https://a.co/d/0g3L6pHd' target='_blank' rel='noopener noreferrer' class='bio-link'>Deck Nine</a> is also available.",
     asyncContact: "Prefer async? Reach me through LinkedIn or GitHub.",
   readyToCollaborate: "Ready to collaborate? I am open to strategic advisory, technical leadership, and creative partnerships."},
-    es: {
-    title: "Engineering Leader y Technical Project Manager",
+  es: {
+    title: "Software Architect y Technical Project Manager",
     intro:
       "Ayudo a organizaciones a disenar, construir y escalar sistemas de software complejos, alineando estrategia, arquitectura y entrega.",
     bio:
@@ -148,7 +148,7 @@ export const content: Record<Locale, {
     readyToCollaborate: "¿Listo para colaborar? Estoy abierto a asesoría estratégica, liderazgo técnico y colaboraciones creativas.",
   },
   fr: {
-    title: "Engineering Leader et Technical Project Manager",
+    title: "Software Architect et Technical Project Manager",
     intro:
       "J'aide les organisations a concevoir, construire et faire evoluer des systemes logiciels complexes, en alignant strategie, architecture et delivery.",
     bio:

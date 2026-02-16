@@ -775,11 +775,23 @@ h1 {
 
   .nav {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  .brand {
+    width: 100%;
+    text-align: center;
   }
 
   .nav-links {
     width: 100%;
+    justify-content: center;
+  }
+
+  .lang-switch {
+    width: 100%;
+    justify-content: center;
   }
 
   .hero-card {
