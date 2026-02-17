@@ -51,6 +51,8 @@ export const content: Record<Locale, {
   heroImageAlt: string;
   featuredProjectDescription: string;
   featuredProjectTagOpenSource: string;
+  contactFormIntro: string;
+  contactFormCta: string;
 }> = {
   it: {
     title: "Software Architect & Technical Project Manager",
@@ -58,30 +60,32 @@ export const content: Record<Locale, {
       "Nei primi anni '90, davanti ad un IBM PS/1 80286, nasceva la mia passione per la tecnologia. Oggi, progetto e aiuto a scalare sistemi software complessi, integrando strategia, architettura e delivery.",
     bio:
       "Con oltre 16 anni di esperienza in software enterprise, formazione, mentoring, leadership tecnica e innovazione guidata da AI, opero all'intersezione tra eccellenza ingegneristica, governance di progetto e crescita dei team. Sono disponibile per incarichi fractional e leadership tecnico-strategica.",
-    cta: "Parliamo del tuo prossimo progetto",
+    cta: "Hai in mente un nuovo progetto? Parliamone!",
     sectionAbout: "Biografia",
-    sectionPortfolio: "Portfolio",
+    sectionPortfolio: "Lavoro",
     sectionProjects: "Progetti",
     sectionContact: "Contatti",
     languageLabel: "Lingua",
     portfolioIntro:
-      "Una selezione di programmi e iniziative che dimostrano approccio, impatto e collaborazione.",
+      "Al vostro fianco per creare valore attraverso qualità, collaborazione, innovazione e sicurezza.",
     projectsIntro:
       "Progetti open source e contributi alla community di sviluppatori.",
     professionalTitle: "Percorso professionale",
     aboutOriginsTitle: "Le origini digitali",
     heroImageAlt: "Luigi Brandolini con il suo IBM PS/1 80286 d'infanzia",
     featuredProjectDescription:
-      "Form builder dichiarativo per Angular 20+ che semplifica la creazione di form complessi tramite configurazione basata su decorator. Disponibile su npm e mantenuto attivamente su GitHub.",
+      "Form builder dichiarativo per Angular 20+ che semplifica la creazione di form complessi tramite configurazione basata sul pattern decorator. Disponibile su npm e mantenuto attivamente su GitHub.",
     featuredProjectTagOpenSource: "Open Source",
+    contactFormIntro: "Scrivimi liberamente attraverso l'apposito form del mio studio professionale <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>.",
+    contactFormCta: "Scrivimi",
     aboutOrigins:
-      "Nato ad Atri (Abruzzo) nel 1983, ho sviluppato, sin dall’infanzia, un forte interesse per l’informatica e i computer. Nonostante il mio percorso liceale fosse ad indirizzo umanistico, ho intrapreso autonomamente lo studio della programmazione con QBasic e Turbo Pascal 5.5, dedicandomi nel tempo libero alla sperimentazione su progetti personali.",
+      "Nato ad Atri (Abruzzo) nel 1983, ho sviluppato, sin dall’infanzia, un forte interesse per l’informatica e i computer. Nonostante il mio percorso liceale fosse ad indirizzo umanistico, ho intrapreso autonomamente lo studio della programmazione con QBasic e Turbo Pascal 5.5, dedicandomi nel tempo libero alla sperimentazione su progetti personali. Durante l'A.S. 1999/2000, pubblico il mio primo sito Web sull'<a href='https://napoleonica.altervista.org' target='_blank' rel='noopener noreferrer' class='bio-link'>Età Napoleonica</a>, ancora visitabile su AlterVista.",
     aboutBio:
-      "Dopo la laurea magistrale in Informatica e l'abilitazione come ingegnere nel 2009, oggi vivo a Roma dove lavoro come ingegnere informatico e formatore tecnico-scientifico. Nel 2014 ho fondato Ermes Engineering, oggi <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>, uno studio che offre consulenza strategica IT, architetture software e governance tecnologica. Ho collaborato con Reply, Dedagroup, Honda S.p.A., Università degli Studi dell'Aquila e IMT Atlantique (Nantes), contribuendo anche a pubblicazioni scientifiche internazionali. L'articolo <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> è il mio ultimo lavoro di ricerca accademica.",
+      "Dopo la laurea magistrale in Informatica e l'abilitazione come ingegnere nel 2009, oggi vivo a Roma dove lavoro come ingegnere informatico, formatore tecnico-scientifico e senior advisor IT. Nel 2014 ho fondato Ermes Engineering, oggi <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>, uno studio che offre consulenza strategica, architetture software e governance tecnologica. Ho collaborato con Reply, Dedagroup, Honda S.p.A., Leonardo, Università degli Studi dell'Aquila e IMT Atlantique (Nantes), contribuendo anche a pubblicazioni scientifiche internazionali. L'articolo <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> è il mio ultimo lavoro di ricerca accademica.",
     creativeTitle: "Oltre il codice",
     aboutCreative:
       "Accanto alla carriera tecnica, coltivo da sempre la passione per il pianoforte, il teatro e la scrittura. Ho interpretato opere di Dürrenmatt e Woody Allen, e nel 2024 ho pubblicato il mio primo romanzo, <a href='https://amzn.eu/d/02OQ3CzI' target='_blank' rel='noopener noreferrer' class='bio-link'>Ponte numero IX</a>, una storia che esplora temi di amore, viaggi e seconde opportunità.",
-    asyncContact: "Preferisci in asincrono ? Contattami su LinkedIn o GitHub.",
+    asyncContact: "Preferisci in asincrono? Contattami su LinkedIn o GitHub.",
     readyToCollaborate: "Pronto a collaborare? Sono disponibile per advisory strategica, leadership tecnica e partnership creative.",
   },
   en: {
@@ -90,24 +94,26 @@ export const content: Record<Locale, {
       "In the early 1990s, in front of an IBM PS/1 80286, my passion for technology was taking shape. Today, I design and help scale complex software systems, integrating strategy, architecture, and delivery.",
     bio:
       "With 16+ years across enterprise software, technical leadership, and AI driven innovation, I operate at the intersection of engineering excellence, project governance, and team development. Available for fractional engagements and strategic technical leadership.",
-    cta: "Let us talk about your next project",
+    cta: "Do you have a new project in mind? Let us talk about it!",
     sectionAbout: "Biography",
-    sectionPortfolio: "Portfolio",
+    sectionPortfolio: "Work",
     sectionProjects: "Projects",
     sectionContact: "Contact",
     languageLabel: "Language",
     portfolioIntro:
-      "A selection of programs and initiatives that highlight approach, impact, and collaboration.",
+      "By your side to create value through quality, collaboration, innovation, and security.",
     projectsIntro:
       "Open source projects and contributions to the developer community.",
     professionalTitle: "Professional journey",
     aboutOriginsTitle: "Digital origins",
     heroImageAlt: "Luigi Brandolini with his childhood IBM PS/1 80286",
     featuredProjectDescription:
-      "Declarative form builder for Angular 20+ that simplifies complex form creation through decorator based configuration. Available on npm and actively maintained on GitHub.",
+      "Declarative form builder for Angular 20+ that simplifies complex form creation through pattern decorator based configuration. Available on npm and actively maintained on GitHub.",
     featuredProjectTagOpenSource: "Open Source",
+    contactFormIntro: "Feel free to write to me through the dedicated form on my professional studio <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>.",
+    contactFormCta: "Write me",
     aboutOrigins:
-      "Born in Atri (Abruzzo) in 1983, I have been passionate about technology since I was a child: my first console was an ATARI 2600. At 14, in the 90s, I started programming with QBasic and Turbo Pascal 5.5, carving out time from my studies despite a demanding humanities education.",
+      "Born in Atri (Abruzzo) in 1983, I have been passionate about technology since I was a child: my first console was an ATARI 2600. At 14, in the 90s, I started programming with QBasic and Turbo Pascal 5.5, carving out time from my studies despite a demanding humanities education. During the 1999/2000 school year, I published my first website on the <a href='https://napoleonica.altervista.org' target='_blank' rel='noopener noreferrer' class='bio-link'>Napoleonic Era</a>, still available on AlterVista.",
     aboutBio:
       "After earning my master's degree in Computer Science and qualifying as an engineer in 2009, I now live in Rome, where I work as a software engineer and technical-scientific trainer. In 2014 I founded Ermes Engineering, now <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>, a studio that offers strategic IT consulting, software architecture, and technology governance. I have collaborated with Reply, Dedagroup, Honda S.p.A., University of L'Aquila, and IMT Atlantique (Nantes), also contributing to international scientific publications. The article <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> is my latest academic research work.",
     creativeTitle: "Beyond code",
@@ -121,24 +127,26 @@ export const content: Record<Locale, {
       "A principios de los años 90, frente a un IBM PS/1 80286, iba naciendo mi pasión por la tecnología. Hoy diseño y ayudo a escalar sistemas de software complejos, integrando estrategia, arquitectura y delivery.",
     bio:
       "Con mas de 16 anos de experiencia en software enterprise, liderazgo tecnico e innovacion guiada por AI, opero en la interseccion de excelencia de ingenieria, gobernanza de programas y desarrollo de equipos. Disponible para colaboraciones fractional y liderazgo tecnico estrategico.",
-    cta: "Hablemos de tu proximo proyecto",
+    cta: "¿Tienes un nuevo proyecto en mente? ¡Hablemos!",
     sectionAbout: "Biografia",
-    sectionPortfolio: "Portafolio",
+    sectionPortfolio: "Trabajo",
     sectionProjects: "Proyectos",
     sectionContact: "Contacto",
     languageLabel: "Idioma",
     portfolioIntro:
-      "Una seleccion de programas e iniciativas que muestran enfoque, impacto y colaboracion.",
+      "A vuestro lado para crear valor a traves de calidad, colaboracion, innovacion y seguridad.",
     projectsIntro:
       "Proyectos de codigo abierto y contribuciones a la comunidad de desarrolladores.",
     professionalTitle: "Trayectoria profesional",
     aboutOriginsTitle: "Los orígenes digitales",
     heroImageAlt: "Luigi Brandolini con su IBM PS/1 80286 de la infancia",
     featuredProjectDescription:
-      "Constructor declarativo de formularios para Angular 20+ que simplifica la creacion de formularios complejos mediante configuracion basada en decoradores. Disponible en npm y mantenido activamente en GitHub.",
+      "Constructor declarativo de formularios para Angular 20+ que simplifica la creacion de formularios complejos mediante configuracion basada en el patron decorador. Disponible en npm y mantenido activamente en GitHub.",
     featuredProjectTagOpenSource: "Código Abierto",
+    contactFormIntro: "Escribeme libremente a traves del formulario dedicado de mi estudio profesional <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>.",
+    contactFormCta: "Escribeme",
     aboutOrigins:
-      "Nacido en Atri (Abruzzo) en 1983, siempre he sido un entusiasta de la tecnología: mi primera consola fue una ATARI 2600. A los 14 años, en los años 90, me acerqué a la programación con QBasic y Turbo Pascal 5.5, encontrando tiempo a pesar de una formación humanística exigente.",
+      "Nacido en Atri (Abruzzo) en 1983, siempre he sido un entusiasta de la tecnología: mi primera consola fue una ATARI 2600. A los 14 años, en los años 90, me acerqué a la programación con QBasic y Turbo Pascal 5.5, encontrando tiempo a pesar de una formación humanística exigente. Durante el curso 1999/2000, publique mi primer sitio web sobre la <a href='https://napoleonica.altervista.org' target='_blank' rel='noopener noreferrer' class='bio-link'>Edad Napoleonica</a>, todavia visitable en AlterVista.",
     aboutBio:
       "Tras obtener mi maestria en Informatica y habilitarme como ingeniero en 2009, hoy vivo en Roma, donde trabajo como ingeniero de software y formador tecnico-cientifico. En 2014 funde Ermes Engineering, hoy <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>, un estudio que ofrece consultoria estrategica de TI, arquitectura de software y gobernanza tecnologica. He colaborado con Reply, Dedagroup, Honda S.p.A., Universidad de L'Aquila e IMT Atlantique (Nantes), contribuyendo tambien a publicaciones cientificas internacionales. El articulo <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> es mi trabajo mas reciente de investigacion academica.",
     creativeTitle: "Mas alla del codigo",
@@ -153,24 +161,26 @@ export const content: Record<Locale, {
       "Au début des années 90, devant un IBM PS/1 80286, ma passion pour la technologie prenait forme. Aujourd'hui, je conçois et j'aide à faire évoluer des systèmes logiciels complexes, en intégrant stratégie, architecture et delivery.",
     bio:
       "Avec plus de 16 ans dans le logiciel enterprise, le leadership technique et l innovation guidee par AI, j opere a l intersection de l excellence technique, de la gouvernance des programmes et du developpement des equipes. Disponible pour des engagements fractional et un leadership technique strategique.",
-    cta: "Parlons de votre prochain projet",
+    cta: "Vous avez un nouveau projet en tete ? Parlons-en !",
     sectionAbout: "Biographie",
-    sectionPortfolio: "Portfolio",
+    sectionPortfolio: "Travail",
     sectionProjects: "Projets",
     sectionContact: "Contact",
     languageLabel: "Langue",
     portfolioIntro:
-      "Une selection de programmes et d initiatives qui mettent en valeur l approche, l impact et la collaboration.",
+      "A vos cotes pour creer de la valeur a travers la qualite, la collaboration, l'innovation et la securite.",
     projectsIntro:
       "Projets open source et contributions a la communaute des developpeurs.",
     professionalTitle: "Parcours professionnel",
     aboutOriginsTitle: "Origines numeriques",
     heroImageAlt: "Luigi Brandolini avec son IBM PS/1 80286 d'enfance",
     featuredProjectDescription:
-      "Generateur declaratif de formulaires pour Angular 20+ qui simplifie la creation de formulaires complexes via une configuration basee sur des decorateurs. Disponible sur npm et activement maintenu sur GitHub.",
+      "Generateur declaratif de formulaires pour Angular 20+ qui simplifie la creation de formulaires complexes via une configuration basee sur le pattern decorateur. Disponible sur npm et activement maintenu sur GitHub.",
     featuredProjectTagOpenSource: "Open Source",
+    contactFormIntro: "Ecrivez-moi librement via le formulaire dedie de mon studio professionnel <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>.",
+    contactFormCta: "Ecrivez-moi",
     aboutOrigins:
-      "Né à Atri (Abruzzes) en 1983, je suis passionné de technologie depuis l'enfance : ma première console fut une ATARI 2600. À 14 ans, dans les années 90, j'ai découvert la programmation avec QBasic et Turbo Pascal 5.5, trouvant du temps malgré des études littéraires exigeantes.",
+      "Né à Atri (Abruzzes) en 1983, je suis passionné de technologie depuis l'enfance : ma première console fut une ATARI 2600. À 14 ans, dans les années 90, j'ai découvert la programmation avec QBasic et Turbo Pascal 5.5, trouvant du temps malgré des études littéraires exigeantes. Durant l'annee scolaire 1999/2000, j'ai publie mon premier site web sur l'<a href='https://napoleonica.altervista.org' target='_blank' rel='noopener noreferrer' class='bio-link'>Epoque Napoleonienne</a>, toujours consultable sur AlterVista.",
     aboutBio:
       "Apres avoir obtenu mon master en informatique et la qualification d'ingenieur en 2009, je vis aujourd'hui a Rome, ou je travaille comme ingenieur logiciel et formateur technico-scientifique. En 2014, j'ai fonde Ermes Engineering, aujourd'hui <a href='https://www.ermesystems.com' target='_blank' rel='noopener noreferrer' class='bio-link'>Ermes Systems</a>, un studio qui propose du conseil strategique IT, de l'architecture logicielle et de la gouvernance technologique. J'ai collabore avec Reply, Dedagroup, Honda S.p.A., l'Universite de L'Aquila et IMT Atlantique (Nantes), en contribuant egalement a des publications scientifiques internationales. L'article <a href='https://ceur-ws.org/Vol-4122/paper16.pdf' target='_blank' rel='noopener noreferrer' class='bio-link'>A language workbench extension to generate conversational interfaces for domain-specific languages</a> est mon travail de recherche academique le plus recent.",
     creativeTitle: "Au dela du code",
@@ -198,9 +208,9 @@ export const portfolio: Record<Locale, PortfolioItem[]> = {
       link: "#",
     },
     {
-      title: "Platform Modernization",
+      title: "Software Architecture",
       description:
-        "Accompagno l'evoluzione delle piattaforme applicative verso architetture a microservizi scalabili e cloud-ready. Miglioro resilienza, osservabilità e performance, ottimizzando al contempo i costi infrastrutturali attraverso pratiche moderne di containerizzazione, orchestrazione e monitoraggio continuo.",
+        "Progetto e sviluppo architetture software scalabili, robuste e cloud-ready, basate su microservizi e sulle versioni più evolute di Java e Spring (Framework e Boot). Definisco soluzioni orientate a resilienza, osservabilità e performance, ottimizzando al contempo i costi infrastrutturali attraverso pratiche moderne di containerizzazione, orchestrazione e monitoraggio continuo.",
       tags: ["Platform", "Affidabilità", "Cloud"],
       link: "#",
     },
@@ -221,9 +231,9 @@ export const portfolio: Record<Locale, PortfolioItem[]> = {
       link: "#",
     },
     {
-      title: "Platform Modernization",
+      title: "Software Architecture",
       description:
-        "I guide the evolution of application platforms toward scalable, cloud-ready microservices architectures. I improve resilience, observability, and performance while optimizing infrastructure costs through modern containerization, orchestration, and continuous monitoring practices.",
+        "I design and develop scalable, robust, cloud-ready software architectures based on microservices and the most advanced versions of Java and Spring (Framework and Boot). I define solutions focused on resilience, observability, and performance, while optimizing infrastructure costs through modern containerization, orchestration, and continuous monitoring practices.",
       tags: ["Platform", "Reliability", "Cloud"],
       link: "#",
     },
@@ -244,9 +254,9 @@ export const portfolio: Record<Locale, PortfolioItem[]> = {
       link: "#",
     },
     {
-      title: "Platform Modernization",
+      title: "Software Architecture",
       description:
-        "Acompaño la evolucion de las plataformas aplicativas hacia arquitecturas de microservicios escalables y cloud-ready. Mejoro resiliencia, observabilidad y rendimiento, optimizando al mismo tiempo los costes de infraestructura mediante practicas modernas de contenedorizacion, orquestacion y monitorizacion continua.",
+        "Diseño y desarrollo arquitecturas de software escalables, robustas y cloud-ready, basadas en microservicios y en las versiones mas avanzadas de Java y Spring (Framework y Boot). Defino soluciones orientadas a resiliencia, observabilidad y rendimiento, optimizando al mismo tiempo los costes de infraestructura mediante practicas modernas de contenedorizacion, orquestacion y monitorizacion continua.",
       tags: ["Plataforma", "Fiabilidad", "Cloud"],
       link: "#",
     },
@@ -267,9 +277,9 @@ export const portfolio: Record<Locale, PortfolioItem[]> = {
       link: "#",
     },
     {
-      title: "Platform Modernization",
+      title: "Software Architecture",
       description:
-        "J'accompagne l'evolution des plateformes applicatives vers des architectures microservices scalables et cloud-ready. J'ameliore la resilience, l'observabilite et les performances, tout en optimisant les couts d'infrastructure grace a des pratiques modernes de containerisation, d'orchestration et de monitoring continu.",
+        "Je conçois et developpe des architectures logicielles scalables, robustes et cloud-ready, basees sur des microservices et sur les versions les plus evoluees de Java et Spring (Framework et Boot). Je definis des solutions orientees vers la resilience, l'observabilite et les performances, tout en optimisant les couts d'infrastructure grace a des pratiques modernes de containerisation, d'orchestration et de monitoring continu.",
       tags: ["Plateforme", "Fiabilite", "Cloud"],
       link: "#",
     },

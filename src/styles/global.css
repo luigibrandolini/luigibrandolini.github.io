@@ -579,10 +579,31 @@ h1 {
   transition: background 0.2s, color 0.2s, box-shadow 0.2s;
 }
 
+.contact-form-btn {
+  align-self: flex-start;
+  background: #1e3a8a;
+  color: #fff;
+}
+
+.contact-form-btn:hover {
+  background: #1a3278;
+  color: #fff;
+}
+
 .contact-btn:hover {
   background: var(--accent);
   color: #fff;
   box-shadow: 0 6px 16px rgba(46, 127, 222, 0.12);
+}
+
+.contact-btn-github {
+  background: #4e3f36;
+  color: #fff;
+}
+
+.contact-btn-github:hover {
+  background: #3f332c;
+  color: #fff;
 }
 
 .contact-icon {
