@@ -32,7 +32,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          PUBLIC_GOOGLE_SITE_VERIFICATION: "O_8MjqjlQ-dw9RbOOUxtAalfCc0p8-HlrVm9sYFOv3g"
+          PUBLIC_GOOGLE_SITE_VERIFICATION: "unRIp3lfHB3bWAZXzVimZKTFVHD9xgV5nMMpPeDFWRU"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
