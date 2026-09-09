@@ -341,11 +341,6 @@ h1 {
   grid-column: span 2;
 }
 
-.about-creative {
-  background: #f6f9ff;
-  border: 1px solid rgba(46, 127, 222, 0.15);
-}
-
 .about-block h3 {
   font-family: "Trebuchet MS", "Verdana", sans-serif;
   margin-bottom: 12px;
@@ -425,6 +420,46 @@ h1 {
 .portfolio-card p {
   color: var(--muted);
   line-height: 1.6;
+}
+
+.writing-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.music-card {
+  margin-top: 24px;
+}
+
+.writing-content p {
+  flex: 1;
+}
+
+.writing-cover {
+  display: block;
+  flex: 0 0 160px;
+  border-radius: 8px;
+}
+
+.writing-cover img {
+  display: block;
+  width: 160px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(14, 35, 61, 0.16);
+}
+
+@media (max-width: 480px) {
+  .writing-content {
+    flex-direction: column;
+  }
+
+  .writing-cover {
+    flex-basis: auto;
+    align-self: center;
+  }
 }
 
 .card-footer {

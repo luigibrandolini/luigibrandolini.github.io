@@ -23,6 +23,10 @@ const { lang, t, portfolio } = Astro.props as {
     projectsIntro: string;
     aboutBio: string;
     aboutCreative: string;
+    writingTitle: string;
+    musicTitle: string;
+    musicDescription: string;
+    writingDescription: string;
     aboutOrigins: string;
     aboutOriginsTitle: string;
     creativeTitle: string;
@@ -49,7 +53,7 @@ const baseUrl = rawBaseUrl.endsWith("/") ? rawBaseUrl : `${rawBaseUrl}/`;
 const localePath = (code: Locale) => (code === defaultLocale ? baseUrl : `${baseUrl}${code}/`);
 const heroImageSrc = `${baseUrl}hero.png`;
 const portfolioIcons: Record<string, { viewBox: string; path: string }> = {
-  "IT Consulting": {
+  "Project Management": {
     viewBox: "0 0 24 24",
     path: "M9 4h6a2 2 0 0 1 2 2v1h3a2 2 0 0 1 2 2v3h-9v-1h-2v1H2V9a2 2 0 0 1 2-2h3V6a2 2 0 0 1 2-2zm0 3h6V6H9v1zm13 7v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4h9v1h2v-1h9z",
   },
@@ -71,6 +75,7 @@ const portfolioIcons: Record<string, { viewBox: string; path: string }> = {
       <a href="#about">{t.sectionAbout}</a>
       <a href="#portfolio">{t.sectionPortfolio}</a>
       <a href="#projects">{t.sectionProjects}</a>
+      <a href="#beyond-code">{t.creativeTitle}</a>
       <a href="#contact">{t.sectionContact}</a>
     </div>
     <div class="lang-switch">
@@ -143,10 +148,6 @@ const portfolioIcons: Record<string, { viewBox: string; path: string }> = {
       <div class="about-block about-main">
         <h3>{t.professionalTitle}</h3>
         <p set:html={t.aboutBio} />
-      </div>
-      <div class="about-block about-creative">
-        <h3>{t.creativeTitle}</h3>
-        <p set:html={t.aboutCreative} />
       </div>
     </div>
   </section>
@@ -226,6 +227,65 @@ const portfolioIcons: Record<string, { viewBox: string; path: string }> = {
           </a>
         </div>
       </article>
+    </div>
+  </section>
+
+  <section id="beyond-code" class="section">
+    <div class="section-head">
+      <h2>{t.creativeTitle}</h2>
+      <p>{t.aboutCreative}</p>
+    </div>
+    <div class="portfolio-card">
+      <div>
+        <div class="portfolio-title">
+          <svg class="portfolio-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 5c-3-2-7-2-10-1v15c3-1 7-1 10 1m0-15c3-2 7-2 10-1v15c-3-1-7-1-10 1V5z" />
+          </svg>
+          <h3>{t.writingTitle}</h3>
+        </div>
+        <div class="writing-content">
+          <a class="writing-cover" href="https://amzn.eu/d/02OQ3CzI" target="_blank" rel="noopener noreferrer">
+            <img src={`${baseUrl}ponte-numero-ix.png`} alt="Ponte numero IX — Luigi Brandolini" width="348" height="522" loading="lazy" />
+          </a>
+          <p set:html={t.writingDescription} />
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="tags">
+          <span>CreativeWriting</span>
+          <span>Fiction</span>
+          <span>Love</span>
+          <span>Travel</span>
+          <span>SecondChances</span>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-card music-card">
+      <div>
+        <div class="portfolio-title">
+          <svg class="portfolio-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 18V5l12-3v13M9 9l12-3" />
+            <ellipse fill="currentColor" cx="6" cy="18" rx="3" ry="3" />
+            <ellipse fill="currentColor" cx="18" cy="15" rx="3" ry="3" />
+          </svg>
+          <h3>{t.musicTitle}</h3>
+        </div>
+        <div class="writing-content">
+          <a class="writing-cover" href="https://music.imusician.pro/a/vF8qeO25/" target="_blank" rel="noopener noreferrer">
+            <img src={`${baseUrl}before-tomorrow.png`} alt="Oracles 02 — Before Tomorrow" width="956" height="956" loading="lazy" />
+          </a>
+          <p set:html={t.musicDescription} />
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="tags">
+          <span>Music</span>
+          <span>Album</span>
+          <span>CreativeCollaboration</span>
+          <span>BeforeTomorrow</span>
+          <span>Oracles02</span>
+        </div>
+      </div>
     </div>
   </section>
 
