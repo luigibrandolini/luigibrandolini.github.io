@@ -312,7 +312,7 @@ export const portfolio: Record<Locale, PortfolioItem[]> = {
 
 export const socials = {
   github: "https://github.com/luigibrandolini",
-  facebook: "https://www.facebook.com/ErmesSystems",
+  facebook: "https://www.facebook.com/brandolini.luigi",
   instagram: "https://www.instagram.com/luigi.brandolini/",
   youtube: "https://www.youtube.com/@LuigiBrandolini",
   linkedin: "https://www.linkedin.com/in/luigibrandolini/",
